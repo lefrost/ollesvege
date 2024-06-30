@@ -4,7 +4,7 @@
 - powered by sveltekit 2, svelte 4, and vite.
 - `npm i`, `npm run dev` to preview the component. default port is 3000.
 - deploy component: tweak `package.json`, `npm run build`, `npm login`, `npm version patch` (if needed), `npm publish`.
-- third-party usage: `import { Ollesvege } from 'ollesvege'`.
+- third-party usage in javascript: `import { Ollesvege } from 'ollesvege'`, `<Ollesvege ... />`.
 - ts & scss support, base assets & styles, and session storage.
 - support for socket.io and/or rest api.
 - this [article](https://dylandupasquier.medium.com/creating-an-npm-package-using-sveltekit-c08349b8d69b) and this [repo](https://github.com/Ddupasquier/mysvelte_ui) are helpful for reference.
