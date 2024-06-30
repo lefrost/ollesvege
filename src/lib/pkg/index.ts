@@ -1,1 +1,1 @@
-export { default as Ollesvelke } from './Ollesvelke.svelte';
+export { default as Ollesvege } from './Ollesvege.svelte';

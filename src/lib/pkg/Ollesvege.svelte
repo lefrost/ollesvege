@@ -93,8 +93,8 @@
   !jobs.includes(`get_data`) &&
   data
 }
-  <!-- ollesvelke -->
-  <div class="container  row--  row-centre--  text  text-black--  card  white--  ollesvelke">
+  <!-- ollesvege -->
+  <div class="container  row--  row-centre--  text  text-black--  card  white--  ollesvege">
     <!-- image -->
     <img
       src={sample_image}
@@ -114,8 +114,8 @@
 <style lang="scss">
 	@import '../assets/scss/all.scss';
 
-  // ollesvelke
-  .ollesvelke.card {
+  // ollesvege
+  .ollesvege.card {
     position: fixed;
     top: unset;
     left: unset;
@@ -129,7 +129,7 @@
 
   // image
   .o-image {
-    height: 0.8em;
+    height: 1em;
     margin-right: 0.3em;
   }
 </style>

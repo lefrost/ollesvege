@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Ollesvelke from '../lib/pkg/Ollesvelke.svelte';
+	import Ollesvege from '../lib/pkg/Ollesvege.svelte';
 </script>
 
-<Ollesvelke />
+<Ollesvege />
 
 <style lang="scss">
 	@import '../lib/assets/scss/all.scss';
