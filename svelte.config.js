@@ -28,9 +28,6 @@ const config = {
 		// target: '#svelte'
 	},
 
-	package: {
-    source: `src/lib/pkg`,
-  },
-};
+	};
 
 export default config;
