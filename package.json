@@ -14,7 +14,6 @@
 		"url": "https://lef.la"
 	},
 	"files": [
-		"dist",
 		"package"
 	],
 	"exports": {
