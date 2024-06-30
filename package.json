@@ -80,5 +80,6 @@
 		"svelte": "^4.0.0",
 		"tweetnacl": "^1.0.3"
 	},
-	"svelte": "./package/pkg/index.js"
+	"svelte": "./package/pkg/index.js",
+	"types": "./package/pkg/index.d.ts"
 }
