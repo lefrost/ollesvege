@@ -24,7 +24,9 @@
 	},
 	"typesVersions": {
 		">4.0": {
-			"foo": ["./dist/index.d.ts"]
+			"foo": [
+				"./dist/index.d.ts"
+			]
 		}
 	},
 	"scripts": {
@@ -64,6 +66,7 @@
 		"@sveltejs/adapter-auto": "^3.2.2",
 		"@sveltejs/adapter-static": "^3.0.2",
 		"buffer": "^6.0.3",
+		"esm": "^3.2.25",
 		"esm-env": "^1.0.0",
 		"jwt-decode": "^4.0.0",
 		"moment": "^2.29.4",
