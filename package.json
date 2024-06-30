@@ -55,6 +55,8 @@
 		"typescript": "^5.0.0"
 	},
 	"type": "module",
+	"svelte": "./dist/index.js",
+  "types": "./dist/index.d.ts",
 	"dependencies": {
 		"@rollup/plugin-inject": "^5.0.2",
 		"@solana/wallet-adapter-wallets": "^0.19.20",
