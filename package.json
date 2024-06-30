@@ -14,7 +14,7 @@
 		"url": "https://lef.la"
 	},
 	"files": [
-		"dist/*"
+		"dist"
 	],
 	"exports": {
 		".": {
@@ -22,10 +22,14 @@
 			"svelte": "./dist/index.js"
 		}
 	},
+	"typesVersions": {
+		">4.0": {
+			"foo": ["./dist/index.d.ts"]
+		}
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "svelte-kit sync && svelte-package",
-		"package": "vite package",
 		"preview": "vite preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
@@ -58,6 +62,7 @@
 		"@svelte-on-solana/wallet-adapter-core": "^1.0.11-alpha.0",
 		"@svelte-on-solana/wallet-adapter-ui": "^1.0.21-alpha.0",
 		"@sveltejs/adapter-auto": "^3.2.2",
+		"@sveltejs/adapter-static": "^3.0.2",
 		"buffer": "^6.0.3",
 		"esm-env": "^1.0.0",
 		"jwt-decode": "^4.0.0",

@@ -116,6 +116,7 @@
 
   // ollesvege
   .ollesvege.card {
+		@include hover-forward(1.04);
     position: fixed;
     top: unset;
     left: unset;
