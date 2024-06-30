@@ -1,0 +1,1 @@
+export { default as Ollesvelke } from './Ollesvelke.svelte';
