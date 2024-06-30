@@ -73,6 +73,7 @@
 		"moment-timezone": "^0.5.39",
 		"sass": "^1.49.0",
 		"speakeasy": "^2.0.0",
+		"svelte-migrate": "^1.4.3",
 		"tweetnacl": "^1.0.3"
 	}
 }
