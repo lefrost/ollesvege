@@ -18,20 +18,20 @@
 	],
 	"exports": {
 		"./package.json": "./package.json",
-		".": "./package/dist/index.js",
+		".": "./package/pkg/index.js",
 		"./Ollesvege.svelte": {
-			"types": "./package/Ollesvege.svelte.d.ts",
-			"svelte": "./package/Ollesvege.svelte",
-			"default": "./package/Ollesvege.svelte"
+			"types": "./package/pkg/Ollesvege.svelte.d.ts",
+			"svelte": "./package/pkg/Ollesvege.svelte",
+			"default": "./package/pkg/Ollesvege.svelte"
 		}
 	},
 	"typesVersions": {
 		">4.0": {
 			"index.d.ts": [
-				"./package/dist/index.d.ts"
+				"./package/pkg/index.d.ts"
 			],
 			"Ollesvege.svelte": [
-				"./package/Ollesvege.svelte.d.ts"
+				"./package/pkg/Ollesvege.svelte.d.ts"
 			]
 		}
 	},
@@ -80,5 +80,5 @@
 		"svelte": "^4.0.0",
 		"tweetnacl": "^1.0.3"
 	},
-	"svelte": "./package/dist/index.js"
+	"svelte": "./package/pkg/index.js"
 }
