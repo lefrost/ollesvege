@@ -1,6 +1,6 @@
 {
 	"name": "ollesvege",
-	"version": "0.0.10",
+	"version": "0.0.11",
 	"description": "A boilerplate package component built with SvelteKit.",
 	"keywords": [
 		"boilerplate",
