@@ -230,9 +230,9 @@
 
 @mixin custom-text {
 	font-family: $ff-custom;
-	text-transform: uppercase;
 	letter-spacing: 0.02em;
 	line-height: 1em;
+	font-weight: 400;
 }
 
 // card
@@ -468,4 +468,27 @@
 	&::-webkit-scrollbar-track {
 		background: rgba($white-hex, 0);
 	}
+}
+
+// card
+
+@mixin bordered-background-card {
+	// note: fix weird transparent borders with gradient background
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 120% 120%;
+}
+
+@mixin dot-card {
+	aspect-ratio: 1/1;
+	--bd-r: 50%;
+	--bd-w: 0em;
+}
+
+// image
+
+@mixin icon-image {
+	aspect-ratio: 1/1;
+	border: 0.13em solid rgba($white-hex, 0.05);
+	border-radius: 50%;
 }
