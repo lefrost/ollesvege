@@ -94,7 +94,7 @@
   data
 }
   <!-- ollesvege -->
-  <div class="container  row--  row-centre--  text  text-black--  card  white--  ollesvege">
+  <div class="container  row--  row-centre--  text  text-black--  card  white--  ollesvege-component  ollesvege">
     <!-- image -->
     <img
       src={sample_image}

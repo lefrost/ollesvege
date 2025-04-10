@@ -72,7 +72,7 @@ async function getData() {
   data
 }
   <!-- ollesvege -->
-  <div class="container  row--  row-centre--  text  text-black--  card  white--  ollesvege">
+  <div class="container  row--  row-centre--  text  text-black--  card  white--  ollesvege-component  ollesvege">
     <!-- image -->
     <img
       src={sample_image}
@@ -90,27 +90,12 @@ async function getData() {
 {/if}
  
 <style>@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400..600&family=Rubik:wght@500&display=swap");
-:global(html) {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-:global(body),
-:global(#svelte) {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  position: relative;
-  background-color: #000000;
-  color: #fff;
-}
-
-:global(a) {
+:global(.ollesvege-component a) {
   color: inherit;
   text-decoration: none;
 }
 
-:global(*) {
+:global(.ollesvege-component *) {
   outline: none;
   margin: 0;
   font-family: "DM Sans";
@@ -121,23 +106,23 @@ async function getData() {
 }
 
 /* width */
-:global(::-webkit-scrollbar) {
+:global(.ollesvege-component ::-webkit-scrollbar) {
   width: 7px;
 }
 
 /* Track */
-:global(::-webkit-scrollbar-track) {
+:global(.ollesvege-component ::-webkit-scrollbar-track) {
   background: #fff;
 }
 
 /* Handle */
-:global(::-webkit-scrollbar-thumb) {
+:global(.ollesvege-component ::-webkit-scrollbar-thumb) {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 0.5em;
 }
 
 /* Handle on hover */
-:global(::-webkit-scrollbar-thumb:hover) {
+:global(.ollesvege-component ::-webkit-scrollbar-thumb:hover) {
   background: rgba(255, 255, 255, 0.1);
 }
 
